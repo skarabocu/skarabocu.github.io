@@ -1,0 +1,36 @@
+.contact-form-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-table > input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+}
+
+.contact-form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-input {
+    border-radius: 25px;
+    margin: 5px;
+    font-size: 24px;
+}
+
+.contact-textarea {
+    border-radius: 25px;
+    font-size: 24px;
+    margin-left: 33%;
+    width: 33%;
+    background: whitesmoke;
+}
+
+.social-media-row > a > img {
+    width: 60px;
+    margin: 10px;
+}
+

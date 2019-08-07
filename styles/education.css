@@ -1,0 +1,23 @@
+.school-history {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.high-school, .college {
+    width: 25%;
+    margin: 20px;
+}
+
+.education-lists, .skills-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.awards-and-honors, .skills, .courses {
+    max-width: 18rem;
+    margin: 20px;
+}

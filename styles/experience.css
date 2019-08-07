@@ -1,0 +1,22 @@
+.media {
+    background-color: inherit;
+    width: 50%;
+    text-align: start;
+    margin-left:25%;
+}
+
+.experience-item > img {
+    height: 10%;
+    width: 10%;
+}
+
+.experience-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.experience-alert {
+    margin-left:25%;
+    width: 50%;
+}

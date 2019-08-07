@@ -1,0 +1,25 @@
+.accordion {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 50%;
+}
+
+.hobbies-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hobby-item {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 30%;
+    padding: 100px;
+    color: rgb(109, 107, 107);
+    font-size: 30px;
+}
+
+.hobby-1, .hobby-2, .hobby-3 {
+    background-color: inherit;
+}
