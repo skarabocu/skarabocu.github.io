@@ -1,8 +1,8 @@
 .media {
     background-color: inherit;
-    width: 50%;
     text-align: start;
-    margin-left:25%;
+    margin:auto;
+    width: 50%;
 }
 
 .experience-item > img {
@@ -13,6 +13,7 @@
 .experience-row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
