@@ -6,16 +6,17 @@
 
 .hobbies-list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-left: 33%;
 }
 
 .hobby-item {
     border: 1px solid black;
     border-radius: 100%;
-    width: 30%;
-    padding: 100px;
+    padding: 50px;
+    width: 50%;
     color: rgb(109, 107, 107);
     font-size: 30px;
 }

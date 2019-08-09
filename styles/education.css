@@ -1,23 +1,34 @@
 .school-history {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .high-school, .college {
-    width: 25%;
-    margin: 20px;
+    
 }
 
 .education-lists, .skills-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .awards-and-honors, .skills, .courses {
     max-width: 18rem;
     margin: 20px;
+}
+
+.school-images {
+    width: 30%;
+    height: 30%;
+    background: inherit;
+    border:none;
+}
+.school-images > img {
+    width:100px;
+    height:100px;
+    flex-shrink: 4;
 }
