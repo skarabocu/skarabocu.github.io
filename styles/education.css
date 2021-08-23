@@ -2,23 +2,36 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.high-school, .college {
-    
+.high-school {
+    max-width: 24rem;
 }
 
 .education-lists, .skills-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.awards-and-honors {
+    max-width: 18rem;
+    margin: 20px;
     justify-content: space-around;
 }
 
-.awards-and-honors, .skills, .courses {
-    max-width: 18rem;
+.skills {
+    max-width: 48rem;
     margin: 20px;
+    justify-content: center;
+}
+
+.courses {
+    max-width: 22rem;
+    margin: 20px;
+    justify-content: right;
 }
 
 .school-images {
