@@ -4,10 +4,9 @@ $("document").ready(function() {
     $(".welcome-submessage").hide().fadeIn(2500);
 
     let hobbies = {
-        "hobby-1" : ["Superhero Enthusiast", 
-        "I am a huge Marvel and DC comics and movies fan. I have watched the entire Marvel Cinematic Universe for 2 times, some movies 3. I read a total of 8 comic book series, and still counting. My favorite superhero movie is Captain America: Civil War, and my favorite comic book series is Injustice."],
-        "hobby-2" : ["Sports Fan","I played basketball for 11 years in total as a PF. I was the captain of my high school Junior Varsity team, and won multiple medals from local and international tournaments. Moreover, I practiced kickboxing for 2 years. I have been a Galatasary SK fan as far as I can remember."],
-        "hobby-3" : ["Strategy & Card Games","I grew up trying to find solutions to the riddles that my grandpa would ask me during our family gatherings. I enjoy playing chess, checkers, and backgammon with my friends, even over Facetime! Also, I love Texas Hold'em Poker, and was one of the top 12 players out of 100+ in Flow Traders Summer 2019 Poker Tournament."],
+        "hobby-1" : ["Urbanism", "I love expoloring everything about cities, especially their architecture. I prepare a 'walk guide' for every city I live in, and once participated in the New York's 'Great Saunter' event to walk around the Manhattan's 32 miles of shoreline in 10 hours. I also love traveling, and follow multiple podcasts (like 'Urbanist') to learn more about cities aroudn the world."],
+        "hobby-2" : ["Sports","I played basketball for 11 years and was the captain of my high school Junior Varsity team, and won multiple medals from local and international tournaments. Moreover, I practiced kickboxing for 2 years. I have been spending more time in local Voleyball tournaments and golf ranges lately. I am an avid fan of Seattle Seahawks and Michigan sports."],
+        "hobby-3" : ["Strategy & Card Games","I grew up trying to find solutions to the riddles that my grandpa would ask me during our family gatherings. I enjoy playing chess, checkers, and backgammon with my friends, even over Facetime! Also, I love Texas Hold'em Poker, and was one of the top 12 players out of 100+ in Flow Traders Summer 2019 Poker Tournament. I am also an amateur cardist, learning cardistry tricks!"],
     }
 
     //Hobby Section
